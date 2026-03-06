@@ -1,0 +1,466 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e8]:
+      - heading "From Research to Real Impact" [level=1] [ref=e9]:
+        - text: From Research to
+        - generic [ref=e10]: Real Impact
+      - paragraph [ref=e12]: Driving Egypt's Innovation Economy Forward
+      - paragraph [ref=e13]: Egypt's National Center for Technology Commercialization transforms research outcomes into real-world technologies by uniting researchers, universities, industry leaders, and investors.
+      - generic [ref=e14]:
+        - link "Explore the Platform" [ref=e15] [cursor=pointer]:
+          - /url: "#platform"
+          - text: Explore the Platform
+          - img [ref=e16]
+        - link "Join the OTC Network" [ref=e18] [cursor=pointer]:
+          - /url: "#otc-network"
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: 🎓
+          - generic [ref=e22]: 100+
+          - generic [ref=e23]: Universities
+        - generic [ref=e24]:
+          - generic [ref=e25]: 🚀
+          - generic [ref=e26]: "6"
+          - generic [ref=e27]: Innovation Clusters
+        - generic [ref=e28]:
+          - generic [ref=e29]: 🌐
+          - generic [ref=e30]: "1"
+          - generic [ref=e31]: National Platform
+    - generic [ref=e37]:
+      - generic [ref=e39]:
+        - heading "Welcome to NCTC" [level=2] [ref=e40]:
+          - text: Welcome to
+          - generic [ref=e41]: NCTC
+        - paragraph [ref=e43]: The National Center for Technology Commercialization bridges the critical gap between research and market-ready solutions, transforming Egyptian innovation into economic impact.
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: "01"
+            - heading "Our Mission" [level=3] [ref=e49]
+          - paragraph [ref=e51]: To enable the commercialization of Egyptian research and innovation by providing structured pathways, digital tools, and national partnerships that connect knowledge creators with industry and investment.
+        - generic [ref=e52]:
+          - paragraph [ref=e54]: To position Egypt as a regional leader in technology commercialization, where research-driven innovation fuels sustainable economic growth, industrial advancement, and societal impact.
+          - generic [ref=e56]:
+            - generic [ref=e57]: "02"
+            - heading "Our Vision" [level=3] [ref=e58]
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e63]: "03"
+            - heading "Why Now?" [level=3] [ref=e64]
+          - generic [ref=e65]:
+            - paragraph [ref=e66]: Egypt holds a vast reserve of untapped research, patents, and technical expertise across its universities and research centers.
+            - paragraph [ref=e67]: As global markets rapidly evolve and technology-driven economies accelerate, NCTC ensures that Egyptian innovation does not remain confined to labs—but reaches industries, markets, and communities where it can create measurable value.
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - generic [ref=e71]: 100+
+            - paragraph [ref=e72]: Research Entities
+          - generic [ref=e73]:
+            - generic [ref=e74]: "6"
+            - paragraph [ref=e75]: Innovation Clusters
+          - generic [ref=e76]:
+            - generic [ref=e77]: "1"
+            - paragraph [ref=e78]: National Platform
+    - generic [ref=e81]:
+      - generic [ref=e82]:
+        - heading "The Commercialization Journey" [level=2] [ref=e83]
+        - paragraph [ref=e85]: NCTC provides a clear, structured pipeline that guides innovations from early discovery to market deployment.
+      - generic [ref=e86]:
+        - generic [ref=e89] [cursor=pointer]:
+          - generic [ref=e90]: "1"
+          - generic [ref=e91]:
+            - img [ref=e94]
+            - heading "Scouting" [level=3] [ref=e97]
+            - paragraph [ref=e98]: Identifying promising research, technologies, and innovations from universities and research institutions.
+        - generic [ref=e101] [cursor=pointer]:
+          - generic [ref=e102]: "2"
+          - generic [ref=e103]:
+            - img [ref=e106]
+            - heading "Prototyping" [level=3] [ref=e110]
+            - paragraph [ref=e111]: Supporting proof-of-concept development and technical validation.
+        - generic [ref=e114] [cursor=pointer]:
+          - generic [ref=e115]: "3"
+          - generic [ref=e116]:
+            - img [ref=e119]
+            - heading "IP Protection" [level=3] [ref=e121]
+            - paragraph [ref=e122]: Securing intellectual property through patents and legal frameworks.
+        - generic [ref=e125] [cursor=pointer]:
+          - generic [ref=e126]: "4"
+          - generic [ref=e127]:
+            - img [ref=e130]
+            - heading "Uploading" [level=3] [ref=e133]
+            - paragraph [ref=e134]: Publishing technologies on the national digital platform.
+        - generic [ref=e137] [cursor=pointer]:
+          - generic [ref=e138]: "5"
+          - generic [ref=e139]:
+            - img [ref=e142]
+            - heading "Industry Matching" [level=3] [ref=e144]
+            - paragraph [ref=e145]: Connecting innovations with industry needs and market demand.
+        - generic [ref=e148] [cursor=pointer]:
+          - generic [ref=e149]: "6"
+          - generic [ref=e150]:
+            - img [ref=e153]
+            - heading "Licensing" [level=3] [ref=e158]
+            - paragraph [ref=e159]: Enabling commercialization through licensing, partnerships, or spin-offs.
+      - link "Discover How the Platform Works →" [ref=e161] [cursor=pointer]:
+        - /url: "#platform"
+        - text: Discover How the Platform Works
+        - generic [ref=e162]: →
+    - generic [ref=e165]:
+      - generic [ref=e166]:
+        - heading "The OTC Network" [level=2] [ref=e167]
+        - paragraph [ref=e169]: A nationwide network of Offices for Technology Commercialization (OTCs) connecting Egypt's innovation ecosystem.
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - generic [ref=e174]:
+            - img [ref=e177]
+            - paragraph [ref=e181]: University TTOs
+          - generic [ref=e183]:
+            - img [ref=e186]
+            - paragraph [ref=e189]: Innovation Hubs
+          - generic [ref=e191]:
+            - img [ref=e194]
+            - paragraph [ref=e199]: Industry Partners
+          - generic [ref=e201]:
+            - img [ref=e204]
+            - paragraph [ref=e208]: Investment Firms
+          - generic [ref=e210]:
+            - img [ref=e213]
+            - paragraph [ref=e219]: Researchers
+          - generic [ref=e221]:
+            - img [ref=e224]
+            - paragraph [ref=e230]: International Partners
+        - generic [ref=e233]:
+          - img [ref=e234]
+          - paragraph [ref=e239]: NCTC
+          - paragraph [ref=e240]: Central Hub
+      - generic [ref=e241]:
+        - generic [ref=e243]:
+          - generic [ref=e244]:
+            - img [ref=e246]
+            - generic [ref=e249]: 100+
+          - heading "University TTOs" [level=3] [ref=e250]
+          - paragraph [ref=e251]: Technology Transfer Offices across Egyptian universities managing IP and commercialization.
+        - generic [ref=e253]:
+          - generic [ref=e254]:
+            - img [ref=e256]
+            - generic [ref=e258]: 50+
+          - heading "Innovation Hubs" [level=3] [ref=e259]
+          - paragraph [ref=e260]: Incubators, accelerators, and innovation centers supporting startups and spin-offs.
+        - generic [ref=e262]:
+          - generic [ref=e263]:
+            - img [ref=e265]
+            - generic [ref=e269]: 200+
+          - heading "Industry Partners" [level=3] [ref=e270]
+          - paragraph [ref=e271]: Companies actively seeking technologies and engaging in R&D collaborations.
+        - generic [ref=e273]:
+          - generic [ref=e274]:
+            - img [ref=e276]
+            - generic [ref=e279]: 30+
+          - heading "Investment Firms" [level=3] [ref=e280]
+          - paragraph [ref=e281]: VC funds, angel networks, and investment bodies funding innovation.
+        - generic [ref=e283]:
+          - generic [ref=e284]:
+            - img [ref=e286]
+            - generic [ref=e291]: 10K+
+          - heading "Researchers" [level=3] [ref=e292]
+          - paragraph [ref=e293]: Scientists, engineers, and innovators contributing to the ecosystem.
+        - generic [ref=e295]:
+          - generic [ref=e296]:
+            - img [ref=e298]
+            - generic [ref=e303]: 15+
+          - heading "International Partners" [level=3] [ref=e304]
+          - paragraph [ref=e305]: Global organizations and networks facilitating technology exchange.
+      - generic [ref=e306]:
+        - heading "Expanding Nationwide" [level=3] [ref=e307]
+        - paragraph [ref=e308]: NCTC is establishing OTCs in every major university and research institution, creating a seamless pipeline from lab to market across Egypt.
+      - link "Connect with Your Local OTC →" [ref=e310] [cursor=pointer]:
+        - /url: "#get-involved"
+        - text: Connect with Your Local OTC
+        - generic [ref=e311]: →
+    - generic [ref=e317]:
+      - generic [ref=e318]:
+        - heading "Innovation Clusters" [level=2] [ref=e319]
+        - paragraph [ref=e321]: NCTC organizes technologies across six strategic innovation clusters, each aligned with Egypt's national priorities.
+      - generic [ref=e322]:
+        - generic [ref=e324] [cursor=pointer]:
+          - img [ref=e326]
+          - heading "HealthTech & Biotech" [level=3] [ref=e328]
+          - paragraph [ref=e329]: Medical devices, pharmaceuticals, diagnostics, and digital health solutions.
+        - generic [ref=e332] [cursor=pointer]:
+          - img [ref=e334]
+          - heading "Agri-Tech & Food Innovation" [level=3] [ref=e337]
+          - paragraph [ref=e338]: Smart agriculture, food tech, precision farming, and sustainable practices.
+        - generic [ref=e341] [cursor=pointer]:
+          - img [ref=e343]
+          - heading "Climate & Energy Tech" [level=3] [ref=e345]
+          - paragraph [ref=e346]: Renewable energy, climate adaptation, carbon reduction, and sustainability.
+        - generic [ref=e349] [cursor=pointer]:
+          - img [ref=e351]
+          - heading "Advanced Materials" [level=3] [ref=e355]
+          - paragraph [ref=e356]: Nanomaterials, composites, smart materials, and material science innovations.
+        - generic [ref=e359] [cursor=pointer]:
+          - img [ref=e361]
+          - heading "Deep Tech & Digital" [level=3] [ref=e364]
+          - paragraph [ref=e365]: AI, IoT, blockchain, cybersecurity, and emerging digital technologies.
+        - generic [ref=e368] [cursor=pointer]:
+          - img [ref=e370]
+          - heading "Heritage & Creative Industries" [level=3] [ref=e372]
+          - paragraph [ref=e373]: Cultural technology, digital heritage preservation, and creative tech solutions.
+      - generic [ref=e375]:
+        - paragraph [ref=e376]: Each cluster has dedicated resources, experts, and industry partners
+        - link "Browse Technologies by Cluster →" [ref=e377] [cursor=pointer]:
+          - /url: "#platform"
+          - text: Browse Technologies by Cluster
+          - generic [ref=e378]: →
+    - generic [ref=e381]:
+      - generic [ref=e382]:
+        - heading "The National Digital Platform" [level=2] [ref=e383]
+        - paragraph [ref=e385]: A unified digital ecosystem connecting Egypt's innovation landscape — from research labs to market deployment.
+      - generic [ref=e386]:
+        - generic [ref=e388]:
+          - img [ref=e390]
+          - heading "Centralized Registry" [level=3] [ref=e394]
+          - paragraph [ref=e395]: Comprehensive database of Egyptian research and innovations.
+        - generic [ref=e397]:
+          - img [ref=e399]
+          - heading "Smart Search & Discovery" [level=3] [ref=e402]
+          - paragraph [ref=e403]: AI-powered matching between technologies and industry needs.
+        - generic [ref=e405]:
+          - img [ref=e407]
+          - heading "IP Protection Tools" [level=3] [ref=e409]
+          - paragraph [ref=e410]: Secure documentation and tracking of intellectual property.
+        - generic [ref=e412]:
+          - img [ref=e414]
+          - heading "Analytics Dashboard" [level=3] [ref=e415]
+          - paragraph [ref=e416]: Real-time insights into innovation pipeline and trends.
+        - generic [ref=e418]:
+          - img [ref=e420]
+          - heading "Collaboration Hub" [level=3] [ref=e425]
+          - paragraph [ref=e426]: Connect researchers, industry partners, and investors.
+        - generic [ref=e428]:
+          - img [ref=e430]
+          - heading "Licensing Management" [level=3] [ref=e434]
+          - paragraph [ref=e435]: Streamlined processes for technology transfer agreements.
+      - generic [ref=e436]:
+        - heading "Built for Every Stakeholder" [level=3] [ref=e437]
+        - generic [ref=e438]:
+          - generic [ref=e441] [cursor=pointer]:
+            - heading "For Researchers" [level=4] [ref=e442]
+            - paragraph [ref=e443]: Showcase your work, connect with industry, and access commercialization support.
+          - generic [ref=e447] [cursor=pointer]:
+            - heading "For Industry" [level=4] [ref=e448]
+            - paragraph [ref=e449]: Discover cutting-edge technologies and connect with Egypt's research ecosystem.
+          - generic [ref=e453] [cursor=pointer]:
+            - heading "For Investors" [level=4] [ref=e454]
+            - paragraph [ref=e455]: Find high-potential innovations ready for market deployment and scaling.
+      - link "Explore the Platform →" [ref=e458] [cursor=pointer]:
+        - /url: "#get-involved"
+        - text: Explore the Platform
+        - generic [ref=e459]: →
+    - generic [ref=e462]:
+      - generic [ref=e463]:
+        - heading "A Collaborative Ecosystem" [level=2] [ref=e464]
+        - paragraph [ref=e466]: NCTC brings together Egypt's innovation stakeholders to accelerate technology commercialization and economic impact.
+      - generic [ref=e467]:
+        - generic [ref=e469]:
+          - img [ref=e473]
+          - generic [ref=e477]:
+            - generic [ref=e478]: Knowledge Creators
+            - heading "Universities & Research Institutions" [level=3] [ref=e479]
+            - paragraph [ref=e480]: Generate cutting-edge research and technologies ready for commercialization.
+            - paragraph [ref=e483]: 100+ Institutions
+          - generic [ref=e484]: "1"
+        - generic [ref=e487]:
+          - img [ref=e491]
+          - generic [ref=e495]:
+            - generic [ref=e496]: Market enablers
+            - heading "Industry Partners" [level=3] [ref=e497]
+            - paragraph [ref=e498]: Provide real-world validation, manufacturing expertise, and market access.
+            - paragraph [ref=e501]: 6 Innovation Clusters
+          - generic [ref=e502]: "2"
+        - generic [ref=e505]:
+          - img [ref=e509]
+          - generic [ref=e512]:
+            - generic [ref=e513]: Growth Catalysts
+            - heading "Investors & Funds" [level=3] [ref=e514]
+            - paragraph [ref=e515]: Support scaling through venture capital, grants, and strategic funding.
+            - paragraph [ref=e518]: 1 National Platform
+          - generic [ref=e519]: "3"
+      - generic [ref=e523]:
+        - heading "Success Through Partnership" [level=3] [ref=e524]
+        - paragraph [ref=e525]: NCTC connects universities, industry, and investors in a unified ecosystem where innovation thrives and economic value is created.
+        - generic [ref=e526]:
+          - paragraph [ref=e528]: Research
+          - generic [ref=e529]: →
+          - paragraph [ref=e531]: Platform
+          - generic [ref=e532]: →
+          - paragraph [ref=e534]: Industry
+          - generic [ref=e535]: →
+          - paragraph [ref=e537]: Market
+      - link "Join the Ecosystem →" [ref=e539] [cursor=pointer]:
+        - /url: "#get-involved"
+        - text: Join the Ecosystem
+        - generic [ref=e540]: →
+    - generic [ref=e546]:
+      - generic [ref=e547]:
+        - heading "Get Involved" [level=2] [ref=e548]
+        - paragraph [ref=e550]: Whether you're a researcher, company, investor, or institution — there's a place for you in Egypt's innovation ecosystem.
+      - generic [ref=e551]:
+        - generic [ref=e552]:
+          - button [ref=e553] [cursor=pointer]:
+            - img [ref=e555]
+          - button [ref=e557] [cursor=pointer]:
+            - img [ref=e559]
+          - button [ref=e562] [cursor=pointer]:
+            - img [ref=e564]
+          - button [ref=e567] [cursor=pointer]:
+            - img [ref=e569]
+        - generic [ref=e577]:
+          - generic [ref=e578]:
+            - img [ref=e580]
+            - heading "For Researchers & Inventors" [level=3] [ref=e582]
+            - paragraph [ref=e583]: Submit your technology, access IP support, and connect with industry partners.
+            - button "Submit Technology →" [ref=e584] [cursor=pointer]
+          - generic [ref=e585]:
+            - heading "What You Get:" [level=4] [ref=e586]
+            - list [ref=e587]:
+              - listitem [ref=e588]:
+                - generic [ref=e589]: ✓
+                - generic [ref=e590]: IP protection and patenting support
+              - listitem [ref=e591]:
+                - generic [ref=e592]: ✓
+                - generic [ref=e593]: Business model development
+              - listitem [ref=e594]:
+                - generic [ref=e595]: ✓
+                - generic [ref=e596]: Industry matchmaking
+              - listitem [ref=e597]:
+                - generic [ref=e598]: ✓
+                - generic [ref=e599]: Funding opportunities
+      - generic [ref=e600]:
+        - heading "Ready to Transform Egyptian Innovation?" [level=3] [ref=e601]
+        - paragraph [ref=e602]: Contact NCTC to learn more about how you can contribute to Egypt's technology commercialization ecosystem.
+        - generic [ref=e603]:
+          - link "📧 info@nctc.gov.eg" [ref=e604] [cursor=pointer]:
+            - /url: mailto:info@nctc.gov.eg
+            - generic [ref=e605]: 📧
+            - text: info@nctc.gov.eg
+          - link "📞 +20 123 456 789" [ref=e606] [cursor=pointer]:
+            - /url: tel:+20123456789
+            - generic [ref=e607]: 📞
+            - text: +20 123 456 789
+      - paragraph [ref=e609]: "\"Building bridges between research excellence and market success\""
+    - generic [ref=e615]:
+      - generic [ref=e616]:
+        - generic [ref=e617]:
+          - generic [ref=e618]:
+            - generic [ref=e620]: NCTC
+            - heading "NCTC" [level=3] [ref=e621]
+          - paragraph [ref=e622]: Egypt's National Center for Technology Commercialization — Transforming research into impact through innovation, collaboration, and excellence.
+          - generic [ref=e623]:
+            - link "Facebook" [ref=e624] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e625]
+            - link "Twitter" [ref=e627] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e628]
+            - link "LinkedIn" [ref=e630] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e631]
+        - generic [ref=e635]:
+          - heading "Explore" [level=4] [ref=e636]
+          - list [ref=e637]:
+            - listitem [ref=e638]:
+              - link "About NCTC" [ref=e639] [cursor=pointer]:
+                - /url: "#about"
+                - img [ref=e640]
+                - generic [ref=e642]: About NCTC
+            - listitem [ref=e643]:
+              - link "How It Works" [ref=e644] [cursor=pointer]:
+                - /url: "#how-it-works"
+                - img [ref=e645]
+                - generic [ref=e647]: How It Works
+            - listitem [ref=e648]:
+              - link "OTC Network" [ref=e649] [cursor=pointer]:
+                - /url: "#otc-network"
+                - img [ref=e650]
+                - generic [ref=e652]: OTC Network
+            - listitem [ref=e653]:
+              - link "Innovation Clusters" [ref=e654] [cursor=pointer]:
+                - /url: "#clusters"
+                - img [ref=e655]
+                - generic [ref=e657]: Innovation Clusters
+            - listitem [ref=e658]:
+              - link "Digital Platform" [ref=e659] [cursor=pointer]:
+                - /url: "#platform"
+                - img [ref=e660]
+                - generic [ref=e662]: Digital Platform
+        - generic [ref=e663]:
+          - heading "Get Involved" [level=4] [ref=e664]
+          - list [ref=e665]:
+            - listitem [ref=e666]:
+              - link "For Researchers" [ref=e667] [cursor=pointer]:
+                - /url: "#get-involved"
+                - img [ref=e668]
+                - generic [ref=e670]: For Researchers
+            - listitem [ref=e671]:
+              - link "For Industry" [ref=e672] [cursor=pointer]:
+                - /url: "#get-involved"
+                - img [ref=e673]
+                - generic [ref=e675]: For Industry
+            - listitem [ref=e676]:
+              - link "For Investors" [ref=e677] [cursor=pointer]:
+                - /url: "#get-involved"
+                - img [ref=e678]
+                - generic [ref=e680]: For Investors
+            - listitem [ref=e681]:
+              - link "For Universities" [ref=e682] [cursor=pointer]:
+                - /url: "#get-involved"
+                - img [ref=e683]
+                - generic [ref=e685]: For Universities
+        - generic [ref=e686]:
+          - heading "Legal" [level=4] [ref=e687]
+          - list [ref=e688]:
+            - listitem [ref=e689]:
+              - link "Privacy Policy" [ref=e690] [cursor=pointer]:
+                - /url: /privacy
+                - img [ref=e691]
+                - generic [ref=e693]: Privacy Policy
+            - listitem [ref=e694]:
+              - link "Terms of Use" [ref=e695] [cursor=pointer]:
+                - /url: /terms
+                - img [ref=e696]
+                - generic [ref=e698]: Terms of Use
+            - listitem [ref=e699]:
+              - link "IP & Licensing" [ref=e700] [cursor=pointer]:
+                - /url: /ip-licensing
+                - img [ref=e701]
+                - generic [ref=e703]: IP & Licensing
+            - listitem [ref=e704]:
+              - link "Contact Us" [ref=e705] [cursor=pointer]:
+                - /url: "#contact"
+                - img [ref=e706]
+                - generic [ref=e708]: Contact Us
+        - generic [ref=e709]:
+          - heading "Contact" [level=4] [ref=e710]
+          - generic [ref=e711]:
+            - generic [ref=e712] [cursor=pointer]:
+              - img [ref=e713]
+              - paragraph [ref=e716]: Egypt
+            - link "info@nctc.eg" [ref=e717] [cursor=pointer]:
+              - /url: mailto:info@nctc.eg
+              - img [ref=e718]
+              - generic [ref=e721]: info@nctc.eg
+            - link "+20 (X) XXXX-XXXX" [ref=e722] [cursor=pointer]:
+              - /url: tel:+20XXXXXXXXXX
+              - img [ref=e723]
+              - generic [ref=e725]: +20 (X) XXXX-XXXX
+      - generic [ref=e727]:
+        - paragraph [ref=e728]: © 2026 NCTC. All rights reserved.
+        - paragraph [ref=e729]: Built with innovation and dedication to Egypt's technological future.
+  - button "Open Next.js Dev Tools" [ref=e736] [cursor=pointer]:
+    - img [ref=e737]
+  - alert [ref=e740]
+```
