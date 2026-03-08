@@ -47,7 +47,7 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.1 }}
             >
               <Image
-                src="/nctc-logo.png"
+                src="/NCTC Logo HQ.png"
                 alt="NCTC - National Center of Technology Commercialization"
                 width={500}
                 height={150}

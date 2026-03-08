@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Mail, MapPin, Phone, Facebook, Twitter, Linkedin, ArrowRight } from 'lucide-react';
 
@@ -88,13 +89,13 @@ const Footer = () => {
           {/* Brand Section */}
           <motion.div variants={itemVariants} className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
-              <div 
-                className="w-12 h-12 rounded-xl flex items-center justify-center shadow-lg"
-                style={{ background: 'linear-gradient(135deg, #4a81f6, #243996)' }}
-              >
-                <span className="text-white text-lg font-bold">NCTC</span>
-              </div>
-              <h3 className="text-2xl font-bold text-white">NCTC</h3>
+              <Image
+                src="/NCTC Logo HQ.png"
+                alt="NCTC"
+                width={180}
+                height={60}
+                className="h-16 w-auto"
+              />
             </div>
             <p className="text-gray-300 font-light mb-8 leading-relaxed">
               Egypt's National Center for Technology Commercialization — 
