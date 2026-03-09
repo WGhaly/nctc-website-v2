@@ -90,7 +90,7 @@ const Footer = () => {
           <motion.div variants={itemVariants} className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <Image
-                src="/NCTC Logo HQ.png"
+                src="/nctc-logo-hq.png"
                 alt="NCTC"
                 width={180}
                 height={60}

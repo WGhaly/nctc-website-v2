@@ -7,8 +7,8 @@ export const metadata: Metadata = {
   description: "Egypt's national engine for transforming research outcomes into real-world technologies. Connecting researchers, universities, industry, and investors.",
   keywords: ["NCTC", "technology commercialization", "innovation", "Egypt", "research", "industry"],
   icons: {
-    icon: '/NCTC Logo HQ.png',
-    apple: '/NCTC Logo HQ.png',
+    icon: '/nctc-logo-hq.png',
+    apple: '/nctc-logo-hq.png',
   },
   openGraph: {
     title: "NCTC - National Center for Technology Commercialization",

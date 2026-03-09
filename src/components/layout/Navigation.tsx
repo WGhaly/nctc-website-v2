@@ -24,7 +24,7 @@ const Navigation = () => {
           {/* Logo */}
           <a href="/" className="flex items-center">
             <Image
-              src="/NCTC Logo HQ.png"
+              src="/nctc-logo-hq.png"
               alt="NCTC"
               width={120}
               height={40}
