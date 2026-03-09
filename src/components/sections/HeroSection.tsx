@@ -51,7 +51,7 @@ const HeroSection = () => {
                 alt="NCTC - National Center of Technology Commercialization"
                 width={500}
                 height={150}
-                className="w-auto h-24 sm:h-32 md:h-40 object-contain drop-shadow-2xl"
+                className="w-auto h-24 sm:h-32 md:h-40 object-contain drop-shadow-2xl brightness-0 invert"
                 priority
               />
             </motion.div>
