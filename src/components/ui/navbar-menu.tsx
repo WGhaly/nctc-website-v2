@@ -74,7 +74,7 @@ export const Menu = ({
   );
 };
 
-export const HoveredLink = ({ children, href, ...rest }: any) => {
+export const HoveredLink = ({ children, href, ...rest }: { children: React.ReactNode; href: string; [key: string]: unknown }) => {
   return (
     <Link
       href={href}

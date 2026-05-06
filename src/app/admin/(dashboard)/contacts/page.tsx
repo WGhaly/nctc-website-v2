@@ -1,6 +1,6 @@
 import { createClient } from '@/lib/supabase/server';
 import { redirect } from 'next/navigation';
-import ContactStatusSelect from '../_components/ContactStatusSelect';
+import ContactStatusSelect from '../../_components/ContactStatusSelect';
 
 type ContactSubmission = {
   id: string;

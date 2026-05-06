@@ -2,6 +2,9 @@
 
 import { motion } from "framer-motion";
 
+// Pre-computed so Math.random() is never called during render
+const PATH_DURATIONS = Array.from({ length: 36 }, () => 20 + Math.random() * 10);
+
 function FloatingPaths({ position }: { position: number }) {
     const paths = Array.from({ length: 36 }, (_, i) => ({
         id: i,
@@ -38,7 +41,7 @@ function FloatingPaths({ position }: { position: number }) {
                             pathOffset: [0, 1, 0],
                         }}
                         transition={{
-                            duration: 20 + Math.random() * 10,
+                            duration: PATH_DURATIONS[path.id],
                             repeat: Number.POSITIVE_INFINITY,
                             ease: "linear",
                         }}

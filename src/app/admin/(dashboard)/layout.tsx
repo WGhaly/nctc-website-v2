@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { LayoutDashboard, Mail, FlaskConical } from 'lucide-react';
-import SignOutButton from './_components/SignOutButton';
+import SignOutButton from '../_components/SignOutButton';
 
 const navItems = [
   { href: '/admin/contacts', label: 'Contacts', icon: Mail },
