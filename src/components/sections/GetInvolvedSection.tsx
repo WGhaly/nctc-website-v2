@@ -169,14 +169,15 @@ const GetInvolvedSection = () => {
                         {actions[activeTab].description}
                       </p>
                       
-                      <motion.button
-                        className="px-8 py-4 rounded-lg font-bold text-white shadow-xl hover:shadow-2xl transition-all duration-300"
+                      <motion.a
+                        href={`/contact?subject=${encodeURIComponent(actions[activeTab].cta)}`}
+                        className="inline-block px-8 py-4 rounded-lg font-bold text-white shadow-xl hover:shadow-2xl transition-all duration-300"
                         style={{ background: actions[activeTab].gradient }}
                         whileHover={{ scale: 1.05, x: 5 }}
                         whileTap={{ scale: 0.95 }}
                       >
                         {actions[activeTab].cta} →
-                      </motion.button>
+                      </motion.a>
                     </div>
 
                     {/* Right: Benefits Cards */}
@@ -226,23 +227,13 @@ const GetInvolvedSection = () => {
             
             <div className="flex flex-wrap justify-center gap-4">
               <motion.a
-                href="mailto:info@nctc.gov.eg"
-                className="inline-flex items-center gap-2 px-8 py-3 bg-white text-blue-600 font-bold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+                href="/contact?subject=General%20Inquiry"
+                className="inline-flex items-center gap-2 px-8 py-3 bg-white text-blue-700 font-bold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <span>📧</span>
-                info@nctc.gov.eg
-              </motion.a>
-              
-              <motion.a
-                href="tel:+20123456789"
-                className="inline-flex items-center gap-2 px-8 py-3 bg-white text-blue-600 font-bold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <span>📞</span>
-                +20 123 456 789
+                <span>✉</span>
+                Contact NCTC
               </motion.a>
             </div>
           </motion.div>

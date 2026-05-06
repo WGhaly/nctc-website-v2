@@ -90,3 +90,32 @@ button {
 .nctc-tab-trigger:hover:not([data-state="active"]) {
   background-color: rgba(74, 129, 246, 0.1);
 }
+
+/* Navigation responsive layout — bypasses Turbopack/Tailwind JIT for critical layout */
+.nav-desktop-links,
+.nav-desktop-cta {
+  display: flex !important;
+}
+
+.nav-mobile-toggle {
+  display: none !important;
+}
+
+.nav-mobile-menu {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .nav-desktop-links,
+  .nav-desktop-cta {
+    display: none !important;
+  }
+
+  .nav-mobile-toggle {
+    display: flex !important;
+  }
+
+  .nav-mobile-menu.open {
+    display: block !important;
+  }
+}

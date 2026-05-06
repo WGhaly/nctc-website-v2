@@ -113,7 +113,7 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.7 }}
             >
               <motion.a
-                href="#platform"
+                href="/contact?subject=General%20Inquiry"
                 className="group px-8 sm:px-10 py-4 text-white font-semibold rounded-xl flex items-center gap-3 transition-all duration-300 text-base sm:text-lg shadow-2xl hover:shadow-blue-500/50"
                 style={{
                   background: 'linear-gradient(135deg, #4a81f6 0%, #243996 100%)',
@@ -121,17 +121,17 @@ const HeroSection = () => {
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Explore the Platform
+                Get In Touch
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </motion.a>
               
               <motion.a
-                href="#otc-network"
+                href="#commercialization-services"
                 className="px-8 sm:px-10 py-4 bg-white/10 backdrop-blur-md text-white font-semibold rounded-xl border-2 border-white/30 hover:bg-white/20 hover:border-white/50 transition-all duration-300 text-base sm:text-lg shadow-xl"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
               >
-                Join the Ecosystem
+                Explore Services
               </motion.a>
             </motion.div>
           </motion.div>

@@ -95,6 +95,7 @@ const Footer = () => {
                 width={180}
                 height={60}
                 className="h-16 w-auto"
+                style={{ filter: 'brightness(0) invert(1)' }}
               />
             </div>
             <p className="text-gray-300 font-light mb-8 leading-relaxed">

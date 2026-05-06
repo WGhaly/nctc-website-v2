@@ -7,7 +7,7 @@ interface CardProps {
   heading: string;
   description: string;
   imgSrc: string;
-  icon: React.ReactNode;
+  icon?: React.ReactNode;
 }
 
 const ColorChangeCard = ({ heading, description, imgSrc, icon }: CardProps) => {
@@ -31,9 +31,11 @@ const ColorChangeCard = ({ heading, description, imgSrc, icon }: CardProps) => {
       <div className="relative z-20 flex h-full flex-col justify-between p-6 text-slate-200 transition-colors duration-500 group-hover:text-white">
         <div className="flex items-start justify-between">
           {/* Icon */}
-          <div className="w-12 h-12 flex items-center justify-center bg-white/10 backdrop-blur-sm rounded-lg text-white transition-all duration-500 group-hover:bg-white/20 group-hover:scale-110">
-            {icon}
-          </div>
+          {icon && (
+            <div className="w-12 h-12 flex items-center justify-center bg-white/10 backdrop-blur-sm rounded-lg text-white transition-all duration-500 group-hover:bg-white/20 group-hover:scale-110">
+              {icon}
+            </div>
+          )}
           <FiArrowRight className="text-3xl transition-transform duration-500 group-hover:-rotate-45" />
         </div>
         
