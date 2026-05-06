@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { MapPin, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { createClient } from '@/lib/supabase/client';
 
 const services = [
   'Commercialization Pathway Assessment',
@@ -34,6 +35,8 @@ export default function ContactSection() {
     message: '',
   });
   const [submitted, setSubmitted] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
   const [focused, setFocused] = useState<string | null>(null);
 
   // Pre-populate fields from URL params
@@ -51,9 +54,31 @@ export default function ContactSection() {
     setFormState((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setSubmitting(true);
+    setSubmitError(null);
+
+    try {
+      const supabase = createClient();
+      const { error } = await supabase.from('contact_submissions').insert({
+        name: formState.name,
+        email: formState.email,
+        phone: formState.phone || null,
+        organization: formState.organization || null,
+        service: formState.service || null,
+        subject: formState.subject || null,
+        message: formState.message,
+      });
+
+      if (error) throw error;
+      setSubmitted(true);
+    } catch (err) {
+      console.error('Contact form submission error:', err);
+      setSubmitError('Something went wrong. Please try again or email us directly.');
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   const inputBase =
@@ -151,26 +176,7 @@ export default function ContactSection() {
               </div>
             </div>
 
-            {/* Divider */}
-            <div className="w-full h-px bg-white/10" />
 
-            {/* What to expect */}
-            <div>
-              <p className="text-white/40 text-xs font-semibold uppercase tracking-widest mb-4">What to Expect</p>
-              <ul className="space-y-3">
-                {[
-                  'Response within 1–2 business days',
-                  'Initial consultation at no cost',
-                  'Matched to the right specialist',
-                  'Confidential & professional service',
-                ].map((item) => (
-                  <li key={item} className="flex items-center gap-3 text-sm text-white/60">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-[#4a81f6] flex-shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
           </motion.div>
 
           {/* Right: Form */}
@@ -311,18 +317,23 @@ export default function ContactSection() {
                     />
                   </div>
 
+                  {submitError && (
+                    <p className="text-red-400 text-sm text-center">{submitError}</p>
+                  )}
+
                   <motion.button
                     type="submit"
-                    whileHover={{ scale: 1.02 }}
-                    whileTap={{ scale: 0.98 }}
-                    className="w-full flex items-center justify-center gap-3 py-4 rounded-xl font-semibold text-white transition-all duration-300"
+                    disabled={submitting}
+                    whileHover={{ scale: submitting ? 1 : 1.02 }}
+                    whileTap={{ scale: submitting ? 1 : 0.98 }}
+                    className="w-full flex items-center justify-center gap-3 py-4 rounded-xl font-semibold text-white transition-all duration-300 disabled:opacity-60 disabled:cursor-not-allowed"
                     style={{
                       background: 'linear-gradient(135deg, #243996 0%, #4a81f6 100%)',
                       boxShadow: '0 4px 24px rgba(74,129,246,0.3)',
                     }}
                   >
-                    Send Message
-                    <ArrowRight className="w-4 h-4" />
+                    {submitting ? 'Sending…' : 'Send Message'}
+                    {!submitting && <ArrowRight className="w-4 h-4" />}
                   </motion.button>
 
                   <p className="text-center text-white/25 text-xs">
