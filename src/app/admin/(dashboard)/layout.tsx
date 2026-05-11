@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import Link from 'next/link';
 import { LayoutDashboard, Mail, FlaskConical } from 'lucide-react';
 import SignOutButton from '../_components/SignOutButton';
