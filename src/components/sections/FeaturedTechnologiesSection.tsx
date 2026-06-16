@@ -56,7 +56,7 @@ export default function FeaturedTechnologiesSection() {
 
         {/* Coming Soon card */}
         <motion.div
-          className="max-w-2xl mx-auto rounded-3xl p-12 text-center"
+          className="max-w-2xl mx-auto rounded-3xl p-6 sm:p-12 text-center"
           style={{
             background: '#ffffff',
             border: '1.5px solid #e8edf8',

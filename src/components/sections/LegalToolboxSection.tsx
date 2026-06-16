@@ -150,7 +150,7 @@ export default function LegalToolboxSection() {
 
                 {/* CTA */}
                 <a
-                  href={`/contact?subject=${encodeURIComponent(doc.cta)}&service=Legal%20Toolbox%20Documents`}
+                  href="/contact"
                   className="inline-flex items-center gap-2 text-sm font-semibold transition-colors duration-200"
                   style={{ color: '#01093d' }}
                   onMouseEnter={(e) => {
@@ -185,7 +185,7 @@ export default function LegalToolboxSection() {
               <p className="text-gray-400 text-xs mt-0.5">Our team provides tailored legal support for complex IP and commercialization matters.</p>
             </div>
             <a
-              href="/contact?subject=Legal%20Support%20Inquiry&service=Legal%20Toolbox%20Documents"
+              href="/contact"
               className="flex-shrink-0 flex items-center gap-2 px-6 py-3 text-sm font-bold text-white transition-colors duration-200"
               style={{ background: '#01093d' }}
               onMouseEnter={(e) => {

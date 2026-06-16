@@ -83,7 +83,7 @@ const DigitalPlatformSection = () => {
           {/* CTA */}
           <div className="mt-16">
             <a
-              href="/contact?subject=Digital%20Platform%20Early%20Access"
+              href="/contact"
               className="inline-flex items-center gap-2 px-8 py-3 text-white font-semibold text-sm transition-colors duration-200"
               style={{ background: '#01093d' }}
               onMouseEnter={(e) => {

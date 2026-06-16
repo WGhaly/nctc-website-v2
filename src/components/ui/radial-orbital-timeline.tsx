@@ -36,6 +36,7 @@ export default function RadialOrbitalTimeline({
     y: 0,
   });
   const [activeNodeId, setActiveNodeId] = useState<number | null>(null);
+  const [orbitRadius, setOrbitRadius] = useState<number>(200);
   const containerRef = useRef<HTMLDivElement>(null);
   const orbitRef = useRef<HTMLDivElement>(null);
   const nodeRefs = useRef<Record<number, HTMLDivElement | null>>({});
@@ -101,6 +102,19 @@ export default function RadialOrbitalTimeline({
     };
   }, [autoRotate, viewMode]);
 
+  useEffect(() => {
+    const container = containerRef.current;
+    if (!container) return;
+    const updateRadius = () => {
+      const w = container.offsetWidth;
+      setOrbitRadius(Math.min(200, Math.max(110, Math.floor(w * 0.28))));
+    };
+    updateRadius();
+    const ro = new ResizeObserver(updateRadius);
+    ro.observe(container);
+    return () => ro.disconnect();
+  }, []);
+
   const centerViewOnNode = (nodeId: number) => {
     if (viewMode !== "orbital" || !nodeRefs.current[nodeId]) return;
 
@@ -113,7 +127,7 @@ export default function RadialOrbitalTimeline({
 
   const calculateNodePosition = (index: number, total: number) => {
     const angle = ((index / total) * 360 + rotationAngle) % 360;
-    const radius = 200;
+    const radius = orbitRadius;
     const radian = (angle * Math.PI) / 180;
 
     const x = radius * Math.cos(radian) + centerOffset.x;
@@ -190,7 +204,10 @@ export default function RadialOrbitalTimeline({
             <div className="w-8 h-8 rounded-full bg-white/80 backdrop-blur-md"></div>
           </div>
 
-          <div className="absolute w-96 h-96 rounded-full border border-white/10"></div>
+          <div
+            className="absolute rounded-full border border-white/10"
+            style={{ width: orbitRadius * 2, height: orbitRadius * 2 }}
+          />
 
           {timelineData.map((item, index) => {
             const position = calculateNodePosition(index, timelineData.length);

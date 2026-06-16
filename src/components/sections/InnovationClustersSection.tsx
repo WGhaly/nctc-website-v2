@@ -89,7 +89,7 @@ const InnovationClustersSection = () => {
           {/* Bottom CTA */}
           <div className="mt-16">
             <a
-              href="/contact?subject=Technology%20Discovery%20by%20Cluster"
+              href="/contact"
               className="inline-flex items-center gap-2 px-8 py-3 text-white font-semibold text-sm transition-all duration-200"
               style={{
                 background: '#243996',

@@ -41,7 +41,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="/nctc-logo-hq.png"
+              src="/NCTC Logo HQ.png"
               alt="NCTC"
               width={160}
               height={54}

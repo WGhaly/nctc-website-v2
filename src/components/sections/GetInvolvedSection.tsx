@@ -152,8 +152,8 @@ const GetInvolvedSection = () => {
                   style={{ background: actions[activeTab].gradient }}
                 />
 
-                <div className="p-12">
-                  <div className="grid md:grid-cols-2 gap-12 items-center">
+                <div className="p-6 sm:p-8 md:p-12">
+                  <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
                     {/* Left: Icon and Title */}
                     <div>
                       <div 
@@ -170,7 +170,7 @@ const GetInvolvedSection = () => {
                       </p>
                       
                       <motion.a
-                        href={`/contact?subject=${encodeURIComponent(actions[activeTab].cta)}`}
+                        href="/contact"
                         className="inline-block px-8 py-4 rounded-lg font-bold text-white shadow-xl hover:shadow-2xl transition-all duration-300"
                         style={{ background: actions[activeTab].gradient }}
                         whileHover={{ scale: 1.05, x: 5 }}
@@ -214,7 +214,7 @@ const GetInvolvedSection = () => {
           {/* Contact Info Box */}
           <motion.div 
             variants={itemVariants}
-            className="mt-20 p-12 rounded-2xl text-center"
+            className="mt-12 md:mt-20 p-6 md:p-12 rounded-2xl text-center"
             style={{ background: 'linear-gradient(135deg, #4a81f6 0%, #243996 100%)' }}
           >
             <h3 className="text-3xl font-bold mb-4 text-white">
@@ -227,7 +227,7 @@ const GetInvolvedSection = () => {
             
             <div className="flex flex-wrap justify-center gap-4">
               <motion.a
-                href="/contact?subject=General%20Inquiry"
+                href="/contact"
                 className="inline-flex items-center gap-2 px-8 py-3 bg-white text-blue-700 font-bold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

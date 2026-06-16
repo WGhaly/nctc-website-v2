@@ -1,8 +1,9 @@
 'use client';
 
+import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { Mail, MapPin, Phone, Facebook, Twitter, Linkedin, ArrowRight } from 'lucide-react';
+import { Mail, MapPin, Facebook, Twitter, Linkedin, ArrowRight } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -89,7 +90,7 @@ const Footer = () => {
           <motion.div variants={itemVariants} className="md:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <Image
-                src="/nctc-logo-hq.png"
+                src="/NCTC Logo HQ.png"
                 alt="NCTC"
                 width={180}
                 height={60}
@@ -153,13 +154,6 @@ const Footer = () => {
               >
                 <Mail className="w-5 h-5 flex-shrink-0 text-[#4a81f6]" />
                 <span>info@nctc.eg</span>
-              </a>
-              <a 
-                href="tel:+20XXXXXXXXXX" 
-                className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors"
-              >
-                <Phone className="w-5 h-5 flex-shrink-0 text-[#4a81f6]" />
-                <span>+20 (X) XXXX-XXXX</span>
               </a>
             </div>
           </motion.div>

@@ -47,7 +47,7 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.1 }}
             >
               <Image
-                src="/nctc-logo-hq.png"
+                src="/NCTC Logo HQ.png"
                 alt="NCTC - National Center of Technology Commercialization"
                 width={500}
                 height={150}
@@ -113,7 +113,7 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 0.7 }}
             >
               <motion.a
-                href="/contact?subject=General%20Inquiry"
+                href="/contact"
                 className="group px-8 sm:px-10 py-4 text-white font-semibold rounded-xl flex items-center gap-3 transition-all duration-300 text-base sm:text-lg shadow-2xl hover:shadow-blue-500/50"
                 style={{
                   background: 'linear-gradient(135deg, #4a81f6 0%, #243996 100%)',

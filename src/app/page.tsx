@@ -5,8 +5,6 @@ import AboutSection from '@/components/sections/AboutSection';
 import HowItWorksSection from '@/components/sections/HowItWorksSection';
 import CommercializationServicesSection from '@/components/sections/CommercializationServicesSection';
 import LegalToolboxSection from '@/components/sections/LegalToolboxSection';
-import OTCNetworkSection from '@/components/sections/OTCNetworkSection';
-import InnovationClustersSection from '@/components/sections/InnovationClustersSection';
 import FeaturedTechnologiesSection from '@/components/sections/FeaturedTechnologiesSection';
 import DigitalPlatformSection from '@/components/sections/DigitalPlatformSection';
 import StakeholdersSection from '@/components/sections/StakeholdersSection';
@@ -22,8 +20,6 @@ export default function Home() {
         <HowItWorksSection />
         <CommercializationServicesSection />
         <LegalToolboxSection />
-        <OTCNetworkSection />
-        <InnovationClustersSection />
         <FeaturedTechnologiesSection />
         <DigitalPlatformSection />
         <StakeholdersSection />
